@@ -929,7 +929,7 @@ public class Calculator {
                 } else if (s.charAt(s.length() - 1) != '+') {
                     s += "+";
                     textField.setText(s);
-                    expression += ",+";
+                    expression += "conflict added";
                 } else {
                     textField.setText(s);
                 }
