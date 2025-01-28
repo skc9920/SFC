@@ -590,7 +590,6 @@ public class Calculator {
         button14.setFont(new Font("SansSerif", Font.PLAIN, 17));
         butttonPanel.add(button14);
 
-        // button for division operator
         JButton button15 = new JButton("<html><body><span>÷</span></body></html>");
         button15.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -929,7 +928,7 @@ public class Calculator {
                 } else if (s.charAt(s.length() - 1) != '+') {
                     s += "+";
                     textField.setText(s);
-                    expression += "conflict added";
+                    expression += ",--";
                 } else {
                     textField.setText(s);
                 }
