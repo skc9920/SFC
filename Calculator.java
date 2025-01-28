@@ -590,7 +590,6 @@ public class Calculator {
         button14.setFont(new Font("SansSerif", Font.PLAIN, 17));
         butttonPanel.add(button14);
 
-        // button for division operator
         JButton button15 = new JButton("<html><body><span>÷</span></body></html>");
         button15.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -882,7 +881,6 @@ public class Calculator {
         button28.setFont(new Font("SansSerif", Font.PLAIN, 17));
         butttonPanel.add(button28);
 
-        // actual functioning on clicking = button
         JButton button29 = new JButton("=");
         button29.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
